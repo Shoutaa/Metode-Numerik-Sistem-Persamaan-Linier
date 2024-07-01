@@ -1,7 +1,14 @@
 # Metode Numerik Sistem Persamaan Linier
 ```
-1. Gauss Jordan
-2. Jacobi
-3. Seidell
+Metode :
+1. Gauss Jordan Method
+2. Jacobi Method
+3. Gauss Seidell Method
 ```
-Example : $soal$
+Example : 
+
+$3x + y – z = 5$
+
+$4x + 7y – 3z = 20$
+
+$2x – 2y + 5z = 10$
