@@ -10,11 +10,12 @@ def z_(x, y):
 def main():
     e = 0.0001 * 100
     x_sebelum, y_sebelum, z_sebelum = 0, 0, 0
-    x, y, z = x_(y_sebelum, z_sebelum), y_(x_sebelum, z_sebelum), z_(x_sebelum, y_sebelum)
-    i = 1
+    i = 2
     
     print ("| {:10} | {:10} | {:10} | {:10} | {:10} | {:10} | {:10} |".format("Iterasi", "X", "Y", "Z", "eX(%)", "eY(%)", "eZ(%)"))
-    print ("| {:10} | {:10.5f} | {:10.5f} | {:10.5f} | {:10} | {:10} | {:10} |".format(i, x, y, z, "-", "-", "-"))
+    print ("| {:10} | {:10.5f} | {:10.5f} | {:10.5f} | {:10} | {:10} | {:10} |".format(1, 0, 0, 0, "-", "-", "-"))
+    x, y, z = x_(y_sebelum, z_sebelum), y_(x_sebelum, z_sebelum), z_(x_sebelum, y_sebelum)
+    print ("| {:10} | {:10.5f} | {:10.5f} | {:10.5f} | {:10} | {:10} | {:10} |".format(i, x, y, z, 100, 100, 100))
 
     while True:
         x_baru = x_(y, z)
