@@ -23,7 +23,7 @@ $$
 \end{array}\right]
 $$
 
-For Jacobi and Gauss Seidel, The equation above changes its form to :
+For Jacobi and Gauss Seidell, The equation above changes its form to :
 
 $x = (5 – y + z)/3$
 
